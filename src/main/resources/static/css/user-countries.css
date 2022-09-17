@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url(../images/planet-earth-wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: auto;
+}
+
+.card{
+    width: 70%;
+    margin: auto;
+}
+
+h6 {
+    color: #2F4F4F;
+    font-style:italic;
+}
+
+.btn.border-0 {
+    padding: 0px;
+}
+
+.list-group-item{
+    font-weight: 500;
+    font-size: small;
+}
+
+.card-link{
+    text-decoration: none;
+}
+
+.card-footer{
+    font-size: small;
+}
+
+.btn {
+    font-size: small;
+}
+
+.display-2:after{
+    content: "";
+    display: block;
+    border: 2px solid rgb(244, 214, 21);
+    width: 25%;
+    margin: auto;
+    /* margin: 0 1rem; */
+    /* transform: translateY(-1rem); */
+    /* border: 1px solid rgb(244, 214, 21); */
+    /* border-bottom: 5px solid rgb(244, 214, 21); */
+
+}
+
+#username{
+    /* color: rgb(244, 214, 21) */
+    color: white;
+}
+
+.h4{
+    font-weight: normal;
+    color: black;
+    /* color:azure; */
+    background-color: white;
+    width: 20%;
+    margin: auto;
+}

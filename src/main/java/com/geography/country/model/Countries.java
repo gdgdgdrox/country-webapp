@@ -1,0 +1,11 @@
+package com.geography.country.model;
+
+import java.util.ArrayList;
+import java.util.List;
+import lombok.ToString;
+
+@ToString
+public class Countries {
+    public static List<Country> listOfAllCountries = new ArrayList<>(250);
+
+}
